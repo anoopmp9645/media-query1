@@ -1,0 +1,34 @@
+.body{
+  height: 100vh;
+}
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  position: absolute;
+  top: 25%;
+  left:40%;
+  text-transform: (-50%, -50%);
+}
+@media (min-width:320px) and (max-width:425px){
+  .box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 25%;
+    left:20%;
+    text-transform: (-50%, -50%);
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) {
+  .box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
